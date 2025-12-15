@@ -1,0 +1,70 @@
+/* Базовые стили */
+.about {
+    padding: 136px 0; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+
+.about-content {
+    max-width: 640px; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-img {
+    width: 640px;
+    height: 662px; 
+    display: block;
+    margin-bottom: 40px; 
+    
+    object-fit: cover; 
+    object-position: center;
+}
+
+.about-title {
+    width: 640px; 
+    font-size: 24px; 
+    font-weight: 400; 
+    text-align: left; 
+    color: var(--color-main-black); 
+    margin: 0;
+    padding: 0;
+    
+    word-wrap: break-word;
+    hyphens: auto; 
+}
+
+.alternative-title {
+    max-width: 640px;
+    width: 100%; 
+}
+
+.about-button {
+    display: inline-block;
+    width: 99px;
+    height: 34px;
+    background-color: #273026;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 34px;
+}
+

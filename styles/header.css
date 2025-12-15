@@ -1,0 +1,72 @@
+
+.header {
+    padding: 16px 0 0 0;
+    height: 158px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--bg-main);
+    width: 100%;
+    font-family: 'Geist', sans-serif;
+    
+}
+
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: -10px;
+    cursor: pointer
+}
+
+.logo-image {
+    height: 20px;
+    width: 800px ; 
+    display: block;
+}
+
+.logo {
+    margin-top: 0;
+    margin-left: 16px;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: right;
+    
+    justify-content: space-between;
+    padding-top: 0px; 
+    padding-right: 16px; 
+    margin-top: -16px;
+}
+
+.nav-link {
+    color: var(--color-main-black);
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: -10px;
+    height: 1px;
+    background-color: var(--color-main-black);
+    transition: right .22s;
+}
+
+@media (max-width: 480px) {
+    .header {
+        display: none;
+    }
+}
+

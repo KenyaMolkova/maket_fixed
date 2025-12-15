@@ -1,0 +1,66 @@
+.home {
+    text-align: left;
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+.home-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-main-black);
+    margin: 33px 10px 10px 10px;
+}
+
+.home-img {
+    width: 100%;
+    height: auto;
+    max-width: 5120px;
+    display: block;
+}
+
+.home-button {
+    width: 248px;
+    height: 191px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background: #1D231C;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    color: white;
+    font-family: 'Geist', sans-serif;
+}
+
+.button-text-top {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.button-text-bottom {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.home-button:hover {
+    background: #4E6D0B;
+}
+
+@media (max-width: 480px) {
+    .home {
+        text-align: left;
+    }
+    .home-title {
+        max-width: 250px;
+        font-size: 32px;
+    }
+}
